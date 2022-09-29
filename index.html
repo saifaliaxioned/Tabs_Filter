@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-<html lang="en"> 
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -13,10 +13,10 @@
   <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="shortcut icon" href="favicon.ico" />
   <!--font-awesome link for icons-->
-  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css" >
+  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
 </head>
 
 <body>
@@ -32,52 +32,64 @@
     <!--main section start-->
     <main>
       <div class="tabsDiv">
-        <ul class="tab-items">
-          <li class="tab-list active-list">
-            <h2 class="tab-name">london</h2>
-          </li>
-          <li class="tab-list">
-            <h2 class="tab-name">paris</h2>
-          </li>
-          <li class="tab-list">
-            <h2 class="tab-name">tokyo</h2>
-          </li>
-        </ul>
-        <ul class="content">
-          <li class="tab-content active-tab">
-            <div class="box">
-              <p class="box-name">london</p>
-            </div>
-            <div class="tab-desc">
-              <h3 class="desc-heading">london</h3>
-              <p class="tab-info">London is the capital city of England.</p>
-            </div>
-          </li>
-          <li class="tab-content">
-            <div class="box">
-              <p class="box-name">paris</p>
-            </div>
-            <div class="tab-desc">
-              <h3 class="desc-heading">paris</h3>
-              <p class="tab-info">Paris is the capital city of France.</p>
-            </div>
-          </li>
-          <li class="tab-content">
-            <div class="box">
-              <p class="box-name">tokyo</p>
-            </div>
-            <div class="tab-desc">
-              <h3 class="desc-heading">tokyo</h3>
-              <p class="tab-info">Tokyo is the capital city of Japan.</p>
-            </div>
-          </li>
-        </ul>
+        <div class="wrapper">
+          <ul class="tab-items">
+            <li class="tab-list active-list">
+              <h2 class="tab-name">london</h2>
+            </li>
+            <li class="tab-list">
+              <h2 class="tab-name">paris</h2>
+            </li>
+            <li class="tab-list">
+              <h2 class="tab-name">tokyo</h2>
+            </li>
+          </ul>
+          <ul class="content">
+            <li class="tab-content-list active-tab">
+              <div class="tab-content">
+                <div class="box">
+                  <p class="box-name">london</p>
+                </div>
+                <div class="tab-desc">
+                  <h3 class="desc-heading">london</h3>
+                  <div class="info-wrapper">
+                    <p class="tab-info">London is the capital city of England.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="tab-content-list">
+              <div class="tab-content">
+                <div class="box">
+                  <p class="box-name">paris</p>
+                </div>
+                <div class="tab-desc">
+                  <h3 class="desc-heading">paris</h3>
+                  <div class="info-wrapper">
+                    <p class="tab-info">Paris is the capital city of France.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="tab-content-list">
+              <div class="tab-content">
+                <div class="box">
+                  <p class="box-name">tokyo</p>
+                </div>
+                <div class="tab-desc">
+                  <h3 class="desc-heading">tokyo</h3>
+                  <p class="tab-info">Tokyo is the capital city of Japan.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </main>
     <!--main section end-->
 
     <!--footer section start-->
-    <footer>      
+    <footer>
 
     </footer>
     <!--footer section end-->
@@ -86,4 +98,5 @@
   <!--container end-->
   <script src="assets/js/script.js"></script>
 </body>
+
 </html>
